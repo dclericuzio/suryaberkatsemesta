@@ -217,7 +217,7 @@ const en = {
     quickLinks: ["About Us", "Management", "Our Business", "Milestone", "Legality", "Contact Us"],
     quickLinkHrefs: ["#about", "#management", "#business", "#milestone", "#legality", "#contact"],
   },
-} as const;
+};
 
-export default en;
 export type Translations = typeof en;
+export default en;
