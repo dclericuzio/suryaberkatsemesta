@@ -8,12 +8,18 @@ export default function Hero() {
 
   return (
     <section className="relative h-screen min-h-[600px] flex items-end pb-24 overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-br from-[#0d1f30] via-[#1a3a5c] to-[#0d2a1a]">
-        <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-20 right-20 w-96 h-96 rounded-full border border-white/20" />
-          <div className="absolute top-40 right-40 w-64 h-64 rounded-full border border-white/10" />
-          <div className="absolute bottom-20 left-10 w-80 h-80 rounded-full bg-[#c8a84b]/10 blur-3xl" />
-        </div>
+      <div className="absolute inset-0">
+        <img
+          src="/assets/Images-03.jpg"
+          alt=""
+          className="absolute inset-0 w-full h-full object-cover"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-[#0d1f30]/85 via-[#1a3a5c]/75 to-[#0d2a1a]/85" />
+      </div>
+      <div className="absolute inset-0 opacity-20 pointer-events-none z-[1]">
+        <div className="absolute top-20 right-20 w-96 h-96 rounded-full border border-white/20" />
+        <div className="absolute top-40 right-40 w-64 h-64 rounded-full border border-white/10" />
+        <div className="absolute bottom-20 left-10 w-80 h-80 rounded-full bg-[#c8a84b]/10 blur-3xl" />
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-6 w-full">

@@ -89,8 +89,8 @@ const id: Translations = {
     },
     nickel: {
       title: "Bijih Nikel — Mineral Logam",
-      desc: "SBS bekerjasama dan turut mengoperasikan kepengelolaan, logistik dan jual-beli nikel dengan IUP OP konsesi nikel di daerah <strong>Sulawesi Tenggara</strong> dan <strong>Halmahera Selatan</strong>. Kami melayani pengiriman secara FOB dan CIF, dari stockpile, jetty sampai dengan tempat pengelolaan smelter.",
-      badges: ["Pengiriman FOB & CIF", "Sulawesi & Halmahera", "Kemitraan Pasokan Jangka Panjang"],
+      desc: "SBS bekerjasama dan turut mengoperasikan kepengelolaan, logistik dan jual-beli nikel dengan IUP OP konsesi nikel di daerah <strong>Sulawesi Tenggara</strong> dan <strong>Halmahera Selatan</strong>. Kami melayani pengiriman secara FOB, CIF dan CNF, dari stockpile, jetty sampai dengan tempat pengelolaan smelter.",
+      badges: ["Pengiriman FOB, CIF & CNF", "Sulawesi & Halmahera", "Kemitraan Pasokan Jangka Panjang"],
       regionLabel: "Sulawesi Tenggara & Halmahera Selatan",
     },
     silica: {
@@ -145,8 +145,8 @@ const id: Translations = {
       },
       {
         date: "November 2025",
-        title: "Purchase Order Batubara Pertama",
-        description: "PT BBB (Anak Perusahaan SBS) mendapatkan Purchase Order Batubara dari PT Semen Indonesia Tbk.",
+        title: "Purchase Orders & Contracts",
+        description: "SBS memperoleh Purchase Orders dan Kontrak dari klien terpercaya.",
       },
     ],
   },

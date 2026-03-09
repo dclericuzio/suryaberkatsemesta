@@ -83,11 +83,11 @@ const woodchipA2: SpecRow[] = [
   { param: "Size", basis: "ARB", result: "<5", unit: "cm" },
 ];
 const nickelSaprolite: SpecRow[] = [
-  { param: "SiO2", basis: "ARB", result: "1.47", unit: "%" },
+  { param: "Ni", basis: "ARB", result: "1.47", unit: "%" },
   { param: "Fe", basis: "ARB", result: "0.3", unit: "%" },
 ];
 const nickelLimonite: SpecRow[] = [
-  { param: "SiO2", basis: "ARB", result: "1.12", unit: "%" },
+  { param: "Ni", basis: "ARB", result: "1.12", unit: "%" },
   { param: "Fe", basis: "ARB", result: "0.2", unit: "%" },
 ];
 const silicaA1: SpecRow[] = [{ param: "SiO2", basis: "ARB", result: "99.88", unit: "%" }];
@@ -138,7 +138,12 @@ export default function Business() {
 
         {activeTab === "coal" && (
           <div>
-            <div className="bg-white rounded-2xl p-6 mb-6 border border-gray-100">
+            <div className="bg-white rounded-2xl overflow-hidden mb-6 border border-gray-100">
+              <div className="relative h-48 md:h-56 overflow-hidden">
+                <img src="/assets/Images-01.jpg" alt="" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              </div>
+              <div className="p-6">
               <h3 className="text-xl font-bold text-[#0d1f30] mb-2">{b.coal.title}</h3>
               <p className="text-gray-600 mb-2" dangerouslySetInnerHTML={{ __html: b.coal.desc }} />
               <div className="flex flex-wrap gap-3 mt-3">
@@ -147,6 +152,7 @@ export default function Business() {
                     {badge}
                   </span>
                 ))}
+              </div>
               </div>
             </div>
             <div className="grid md:grid-cols-3 gap-4">
@@ -159,7 +165,12 @@ export default function Business() {
 
         {activeTab === "biomass" && (
           <div>
-            <div className="bg-white rounded-2xl p-6 mb-6 border border-gray-100">
+            <div className="bg-white rounded-2xl overflow-hidden mb-6 border border-gray-100">
+              <div className="relative h-48 md:h-56 overflow-hidden">
+                <img src="/assets/Images-02.jpg" alt="" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              </div>
+              <div className="p-6">
               <h3 className="text-xl font-bold text-[#0d1f30] mb-2">{b.biomass.title}</h3>
               <p className="text-gray-600 mb-2" dangerouslySetInnerHTML={{ __html: b.biomass.desc }} />
               <p className="text-gray-600 mb-3">{b.biomass.desc2}</p>
@@ -178,6 +189,7 @@ export default function Business() {
                     {badge}
                   </span>
                 ))}
+              </div>
               </div>
             </div>
             <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-3">
@@ -199,7 +211,12 @@ export default function Business() {
 
         {activeTab === "nickel" && (
           <div>
-            <div className="bg-white rounded-2xl p-6 mb-6 border border-gray-100">
+            <div className="bg-white rounded-2xl overflow-hidden mb-6 border border-gray-100">
+              <div className="relative h-48 md:h-56 overflow-hidden">
+                <img src="/assets/Images-09.jpg" alt="" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              </div>
+              <div className="p-6">
               <h3 className="text-xl font-bold text-[#0d1f30] mb-2">{b.nickel.title}</h3>
               <p className="text-gray-600 mb-2" dangerouslySetInnerHTML={{ __html: b.nickel.desc }} />
               <div className="flex flex-wrap gap-3 mt-3">
@@ -218,6 +235,7 @@ export default function Business() {
                   </span>
                 ))}
               </div>
+              </div>
             </div>
             <h4 className="text-sm font-semibold text-gray-500 uppercase tracking-widest mb-3">
               {b.nickel.regionLabel}
@@ -231,7 +249,12 @@ export default function Business() {
 
         {activeTab === "silica" && (
           <div>
-            <div className="bg-white rounded-2xl p-6 mb-6 border border-gray-100">
+            <div className="bg-white rounded-2xl overflow-hidden mb-6 border border-gray-100">
+              <div className="relative h-48 md:h-56 overflow-hidden">
+                <img src="/assets/Images-03.jpg" alt="" className="w-full h-full object-cover" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/40 to-transparent" />
+              </div>
+              <div className="p-6">
               <h3 className="text-xl font-bold text-[#0d1f30] mb-2">{b.silica.title}</h3>
               <p className="text-gray-600 mb-2" dangerouslySetInnerHTML={{ __html: b.silica.desc }} />
               <div className="flex flex-wrap gap-3 mt-3">
@@ -245,6 +268,7 @@ export default function Business() {
                     {badge}
                   </span>
                 ))}
+              </div>
               </div>
             </div>
             <div className="grid md:grid-cols-2 gap-4">

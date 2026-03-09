@@ -31,13 +31,11 @@ export default function Navbar() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
         <a href="#" className="flex items-center gap-3">
-          <div className="w-10 h-10 rounded-full bg-white/20 border border-white/40 flex items-center justify-center">
-            <span className="text-white font-bold text-sm">SBS</span>
-          </div>
-          <div className="text-white">
-            <div className="font-bold text-sm leading-tight">Surya Berkat</div>
-            <div className="font-bold text-sm leading-tight">Semesta</div>
-          </div>
+          <img
+            src="/assets/SBS Surya Logo White-02.png"
+            alt="Surya Berkat Semesta"
+            className="h-10 w-auto object-contain"
+          />
         </a>
 
         <div className="hidden md:flex items-center gap-8">

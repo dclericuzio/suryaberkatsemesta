@@ -88,8 +88,8 @@ const en = {
     },
     nickel: {
       title: "Nickel Ore — Metal Mineral",
-      desc: "SBS cooperates and operates nickel management, logistics and trading with nickel IUP OP concessions in <strong>Southeast Sulawesi</strong> and <strong>South Halmahera</strong>. We serve FOB and CIF delivery, from stockpile, jetty to smelter.",
-      badges: ["FOB & CIF Delivery", "Sulawesi & Halmahera", "Long-term Supply Partnership"],
+      desc: "SBS cooperates and operates nickel management, logistics and trading with nickel IUP OP concessions in <strong>Southeast Sulawesi</strong> and <strong>South Halmahera</strong>. We serve FOB, CIF and CNF delivery, from stockpile, jetty to smelter.",
+      badges: ["FOB, CIF & CNF Delivery", "Sulawesi & Halmahera", "Long-term Supply Partnership"],
       regionLabel: "Southeast Sulawesi & South Halmahera",
     },
     silica: {
@@ -144,8 +144,9 @@ const en = {
       },
       {
         date: "November 2025",
-        title: "First Coal Purchase Order",
-        description: "PT BBB (Subsidiary of SBS) attains Coal Purchase Order from PT Semen Indonesia Tbk.",
+        title: "Purchase Orders & Contracts",
+        description:
+          "SBS attains Purchase Orders and Contracts from reputable clients.",
       },
     ],
   },

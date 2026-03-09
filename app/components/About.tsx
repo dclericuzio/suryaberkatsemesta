@@ -57,6 +57,14 @@ export default function About() {
           </div>
         </div>
 
+        <div className="rounded-2xl overflow-hidden mb-12 border border-gray-100">
+          <img
+            src="/assets/Images-08.png"
+            alt=""
+            className="w-full h-48 md:h-64 object-cover object-center"
+          />
+        </div>
+
         <div>
           <p className="section-label mb-3">{a.businessLabel}</p>
           <h2 className="text-3xl font-bold text-[#0d1f30] mb-8">{a.businessHeading}</h2>

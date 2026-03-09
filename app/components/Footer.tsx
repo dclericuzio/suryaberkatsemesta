@@ -88,9 +88,11 @@ export default function Footer() {
         <div className="border-t border-white/10">
           <div className="max-w-7xl mx-auto px-6 py-8 flex flex-col md:flex-row items-center justify-between gap-6">
             <div className="flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full bg-white/10 border border-white/20 flex items-center justify-center">
-                <span className="text-white font-bold text-xs">SBS</span>
-              </div>
+              <img
+                src="/assets/SBS Surya Logo White-02.png"
+                alt="Surya Berkat Semesta"
+                className="h-8 w-auto object-contain"
+              />
               <div>
                 <div className="text-white font-bold text-xs">PT Surya Berkat Semesta</div>
                 <div className="text-white/40 text-xs">{f.copyright}</div>
